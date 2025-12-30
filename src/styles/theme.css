@@ -1,0 +1,77 @@
+:root {
+  --lily-petal: #f3b6b3;
+  --lily-sage: #91a097;
+  --lily-ink: #575a5d;
+  --lily-ivory: #faf5ed;
+
+  --font-title: "Lectio", serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-soft: 0.25s var(--ease-soft);
+
+  --theme-bg: var(--lily-ivory);
+  --theme-surface: #ffffff;
+  --theme-text: var(--lily-ink);
+  --theme-accent: var(--lily-petal);
+
+  --petal-radius: 16px;
+  --petal-padding: 0.75rem 1.25rem;
+
+  --title-size: 2rem;
+  --body-size: 1rem;
+}
+
+/* --------------------- */
+
+header {
+  margin-bottom: 2rem;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--theme-bg);
+  color: var(--theme-text);
+  transition: background-color var(--transition-soft);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+/* --------------------- */
+
+#logo {
+    pointer-events: none;
+    margin-right: 0.5em;
+}
+
+.petal {
+  font-family: var(--font-title);
+  font-weight: 500;
+  padding: var(--petal-padding);
+  border-radius: var(--petal-radius);
+  border: none;
+  background: var(--theme-accent);
+  color: var(--lily-ink);
+  cursor: pointer;
+
+  transition:
+    transform var(--transition-soft),
+    box-shadow var(--transition-soft);
+}
+
+.petal:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.surface {
+  background: var(--theme-surface);
+  border-radius: calc(var(--petal-radius) + 4px);
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
