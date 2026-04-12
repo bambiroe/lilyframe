@@ -1,33 +1,30 @@
 # 🌸 LilyFrame
 
-**LilyFrame** is a soft UI theme builder focused on calm design, gentle motion, and thoughtful customization.
+**LilyFrame** is a soft UI theme builder focused on calming palettes, gentle animations, and varied customisation.
 
-It allows you to explore colors, typography, spacing, and shape through a serene, design-first interface.
+It allows you to explore colours, typography, spacing, and shape through a serene, design-first interface.
 
-## ✨ Features (WIP)
+_(preview coming soon)_
 
-- Live theme customization using CSS variables
-- Soft, rounded UI components
-- Adjustable layout and spacing
-- Calm, nature-inspired presets
+## 💚 Features (WIP)
 
-## 🛠 Technologies
+- Live theme customisation using CSS variables.
+- Soft, rounded UI components.
+- Adjustable layout and spacing.
+- Calm, nature-inspired presets.
+
+## 🍡 Tech Stack
 
 - `Vite`
 - `React`
 - `TypeScript`
-- `CSS`
-- `HTML`
+- `HTML5`
+- `CSS3`
 
-## 🌱 Project Status
+## 💚 Project Status
 
-LilyFrame is currently a **work in progress** and actively evolving.  
-The focus is on building a small, intentional design tool with a gentle UX.
+LilyFrame is currently a **work in progress** and actively evolving.
 
-## 🖼 Preview
+---
 
-_(coming soon)_
-
-## 💚 Inspiration
-
-Designed with softness, clarity, and care. LilyFrame is inspired by calm interfaces, botanical forms, and cozy creative tools.
+Developed by [@bambiroe](https://github.com/bambiroe).
